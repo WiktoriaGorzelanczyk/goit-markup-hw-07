@@ -15,30 +15,32 @@
         <link 
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" />
-        <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="./css/main.min.css" />
         <title>Zadanie domowe 7</title>
     </head>
     <body>
-        <header class="header-menu">
-        <div class="container menu">
-             <a class="top-title" href="./index.html">Web<span class="studios">Studio</span></a>      
+        <header class="page-header">
+        <div class="container page-header__menu">
+            <div class="page-header__navigation">
+             <a class="top--title" href="./index.html">Web<span class="studios">Studio</span></a>      
             <!-- Logo -->
-            <nav class="menu-links">
-                <ul class="list">
+            <nav class="navigation">
+                <ul class="navigation__list">
                     <li>
-                        <a class="menu-link link-active" href="./index.html">Agencja</a>
+                        <a class="navigation__link navigation__link--active" href="./index.html">Agencja</a>
                     </li>
                     <li>
-                        <a class="menu-link" href="./portfolio.html">Portfolio</a>
+                        <a class="navigation__link" href="./portfolio.html">Portfolio</a>
                     </li>
                     <li>
-                        <a class="menu-link" href="#">Kontakt</a>
+                        <a class="navigation__link" href="#">Kontakt</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="social-links">
+            </div>
+            <ul class="social--links">
                 <li>
-                    <a class="link" href="mailto:info@devstudio.com">
+                    <a class="social--links__link" href="mailto:info@devstudio.com">
                         <svg class="icon" width="16px" height="12px">
                         <use href="./images/icons.svg#icon-envelope">
                         </use>
@@ -46,7 +48,7 @@
                     info@devstudio.com</a>
                 </li>
                 <li>
-                    <a class="link" href="tel:+48111111111"><svg class="icon" width="10px" height="16px">
+                    <a class="social--links__link" href="tel:+48111111111"><svg class="icon" width="10px" height="16px">
                         <use href="./images/icons.svg#icon-smartphone">
                         </use>
                     </svg>
@@ -56,51 +58,51 @@
         </div>
         </header>
         <main>
-            <section class="main-first">
-            <div class="container con-first">
-                <h1 class="main-first-text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-                <button data-modal-open class="button-primary" type="button">Zamów usługę</button>
-            <div class="backdrop is-hidden" data-modal>
+            <section class="section main__first">
+            <div class="container imposter">
+                <h1 class="imposter__title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+                <button data-modal-open class="button button__primary--open" type="button">Zamów usługę</button>
+            <div class="backdrop backdrop__is-hidden" data-modal>
                 <div class="modal">
-                    <p class="modal-text">Zostaw swoje dane w formularzu poniżej</p>
-                    <form class="modal-form">
-                        <div class="modal-list">
-                        <label class="modal-lab">
+                    <p class="modal__title">Zostaw swoje dane w formularzu poniżej</p>
+                    <form class="modal__form">
+                        <div class="modal__list">
+                        <label class="modal__lab">
                             <p>Imię</p>
-                            <div class="modal-form-input">
-                                <svg width="18px" height="18px" class="modal-icon">
+                            <div class="modal__form-input">
+                                <svg width="18px" height="18px" class="modal__icon">
                                     <use href="./images/symbol-defs.svg#icon-person-black-18dp-1"></use>
                                 </svg>
-                                <input type="text" name="name" class="modal-input" />
+                                <input type="text" name="name" class="modal__input" />
                             </div>
                         </label>
-                        <label class="modal-lab">
+                        <label class="modal__lab">
                             <p>Telefon</p>
-                            <div class="modal-form-input">
-                                <svg width="18px" height="18px" class="modal-icon">
+                            <div class="modal__form-input">
+                                <svg width="18px" height="18px" class="modal__icon">
                                     <use href="./images/symbol-defs.svg#icon-phone-black-18dp-1"></use>
                                 </svg>
-                                <input type="tel" name="telephone" class="modal-input" />
+                                <input type="tel" name="telephone" class="modal__input" />
                             </div>
                         </label>
-                        <label class=modal-lab>
+                        <label class=modal__lab>
                             <p>E-mail</p>
-                            <div class="modal-form-input">
-                                <svg width="18px" height="18px" class="modal-icon">
+                            <div class="modal__form-input">
+                                <svg width="18px" height="18px" class="modal__icon">
                                     <use href="./images/symbol-defs.svg#icon-email-black-18dp-1"></use>
                                 </svg>
-                                <input type="email" name="email" class="modal-input" />
+                                <input type="email" name="email" class="modal__input" />
                             </div>
                         </label>
                         <label>
                             <p>Komentarz</p>
-                            <div class="modal-form-input">
+                            <div class="modal__form-input">
                                 <textarea
                                    type="text"
                                    name="comment"
                                    rows="6"
                                    placeholder="Wprowadź tekst"
-                                   class="modal-input"></textarea>
+                                   class="modal__input"></textarea>
                             </div>
                         </label>
                         </div>
@@ -109,22 +111,22 @@
                               type="checkbox"
                               id="check"
                               name="checkbox"
-                              class="checkbox-input" />
-                            <label class="checkbox-label" for="check">
-                                <svg width="13px" height="10px" class="checkbox-icon">
+                              class="checkbox__input" />
+                            <label class="checkbox__label" for="check">
+                                <svg width="13px" height="10px" class="checkbox__icon">
                                     <use href="./images/icon-check.svg#icon-checkbox"></use>
                                 </svg>
                             </label>
-                            <p class="checkbox-text">
+                            <p class="checkbox__text">
                                 Oświadczam iż akceptuję
-                                <a href="#" class="checkbox-link">Regulamin</a> i
-                                <a href="#" class="checkbox-link">Politykę Prywatności.</a>
+                                <a href="#" class="checkbox__link">Regulamin</a> i
+                                <a href="#" class="checkbox__link">Politykę Prywatności.</a>
                             </p>
                         </div>
-                        <button type="submit" class="button-send">Wyślij</button>
+                        <button type="submit" class="button button__send">Wyślij</button>
                     </form>
-                    <button class="icon-modal-close" data-modal-close>
-                            <svg class="icon-svg" width="17px" height="17px">
+                    <button class="button__modal--close" data-modal-close>
+                            <svg class="icon__svg" width="17px" height="17px">
                                 <use href="./images/close-black.svg#X">
                                 </use>
                             </svg>
@@ -134,60 +136,60 @@
             </div>
             </div>
             </section>
-            <section class="section descriptions">
+            <section class="section">
             <div class="container">
-                <ul class="desc-list">
+                <ul class="grid grid__style">
                     <li>
-                        <div class="icon-desc">
+                        <div class="grid__desc-icon">
                             <svg width="70px" height="70px">
                                 <use href="./images/icons.svg#icon-antenna">
                                 </use>
                             </svg>
                         </div>
-                        <h2 class="descriptions-name">LOREM IPSUM</h2>
-                        <p class="descriptions-text">
+                        <h2 class="grid__descriptions-name">LOREM IPSUM</h2>
+                        <p class="grid__descriptions-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
                         </p>
                     </li>
                     <li>
-                        <div class="icon-desc">
+                        <div class="grid__desc-icon">
                             <svg width="70px" height="70px">
                                 <use href="./images/icons.svg#icon-clock">
                                 </use>
                             </svg>
                         </div>
-                        <h2 class="descriptions-name">LOREM IPSUM</h2>
-                        <p class="descriptions-text">
+                        <h2 class="grid__descriptions-name">LOREM IPSUM</h2>
+                        <p class="grid__descriptions-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
                         </p>
                     </li>
                     <li>
-                        <div class="icon-desc">
+                        <div class="grid__desc-icon">
                             <svg width="70px" height="70px">
                                 <use href="./images/icons.svg#icon-diagram">
                                 </use>
                             </svg>
                         </div>
-                        <h2 class="descriptions-name">LOREM IPSUM</h2>
-                        <p class="descriptions-text">
+                        <h2 class="grid__descriptions-name">LOREM IPSUM</h2>
+                        <p class="grid__descriptions-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
                         </p>
                     </li>
                     <li>
-                        <div class="icon-desc">
+                        <div class="grid__desc-icon">
                             <svg width="70px" height="70px">
                                 <use href="./images/icons.svg#icon-astronaut">
                                 </use>
                             </svg>
                         </div>
-                        <h2 class="descriptions-name">LOREM IPSUM</h2>
-                        <p class="descriptions-text">
+                        <h2 class="grid__descriptions-name">LOREM IPSUM</h2>
+                        <p class="grid__descriptions-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Nam vel arcu sem. Sed non sodales dui.
                             Interdum et malesuada
@@ -196,54 +198,54 @@
                 </ul>
             </div>
             </section>
-            <section class="section work">
+            <section class="section--work section">
             <div class="container">
-              <h2 class="work-text">Czym się zajmujemy</h2>
-              <ul class="work-list">
-                    <li class="work-images">
+              <h2 class="section__title">Czym się zajmujemy</h2>
+              <ul class="grid__work-list">
+                    <li class="grid__work-images">
                     <img 
                       src="./images/programming.jpg"
                       width="370"
                       height="293"
                       alt="Ktoś pisze program na komputerze, korzystając z pomocy tableta i schematu na kartce."
                     />
-                    <p class="work-desc">APLIKACJE KOMPUTEROWE</p>
+                    <p class="grid__work-desc">APLIKACJE KOMPUTEROWE</p>
                     </li>
-                    <li class="work-images">
+                    <li class="grid__work-images">
                     <img 
                     src="./images/apps.jpg"
                     width="370"
                     height="293"
                     alt="Ktoś zastanawia się nad wyborem wyglądu aplikacji na urządzeniach mobilnych."
                     />
-                    <p class="work-desc">APLIKACJE MOBILNE</p>
+                    <p class="grid__work-desc">APLIKACJE MOBILNE</p>
                     </li>
-                    <li class="work-images">
+                    <li class="grid__work-images">
                     <img 
                     src="./images/colours.jpg"
                     width="370"
                     height="293"
                     alt="Wyświetlona jest tabela kolorów na tablecie."
                     />
-                    <p class="work-desc">ROZWIĄZANIA GRAFICZNE</p>
+                    <p class="grid__work-desc">ROZWIĄZANIA GRAFICZNE</p>
                     </li>
                     </ul>
             </div>
             </section>
-            <section class="section team">
+            <section class="section section__team">
             <div class="container">
-                <h2 class="team-text">Nasz zespół</h2>
-                <ul class="team-list">
-                    <li class="team-item">
+                <h2 class="section__title">Nasz zespół</h2>
+                <ul class="grid grid__style">
+                    <li class="grid-item">
                         <img 
                         src="./images/John.jpg"
                         width="270"
                         height="260"
                         alt="Product Designer"
                         />
-                        <div class="fig-team">
-                            <h2 class="team-name">John Doe</h2>
-                            <p class="team-job">Project Designer</p>
+                        <div class="grid__fig-team">
+                            <h2 class="grid__team-name">John Doe</h2>
+                            <p class="grid__team-job">Project Designer</p>
                         <ul class="community">
                             <a href="#" class="com-links">
                                 <svg width="20px" height="20px">

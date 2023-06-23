@@ -1,12 +1,12 @@
 @use "../utils/variables" as *;
 .grid {
-  &__strengths-icon {
+  &__desc-icon {
     padding: 25px 100px;
     margin-bottom: 30px;
     border-radius: $borderRadius;
     background-color: $colorBackground;
   }
-  &__strengths-name {
+  &__descriptions-name {
     color: $colorPrimary;
     font-weight: $fontWeightBold;
     font-size: 14px;
@@ -14,7 +14,7 @@
     letter-spacing: $letterSpacingTitle;
     padding-bottom: 10px;
   }
-  &__strengths-text {
+  &__desc-text {
     color: $colorText;
     font-size: 14px;
     line-height: 1.7;

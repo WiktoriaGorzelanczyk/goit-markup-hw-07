@@ -21,6 +21,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
   }
   &--work {
     padding-top: 0;

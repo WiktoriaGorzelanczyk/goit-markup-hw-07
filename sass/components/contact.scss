@@ -1,18 +1,17 @@
 @use "../utils/variables" as *;
 .contact {
-  list-style-type: none;
+  margin-left: auto;
   display: flex;
-  column-gap: 30px;
+  gap: 50px;
   &__link-header {
     display: flex;
-    align-items: center;
     color: $colorText;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1;
+    line-height: 1.17;
     text-decoration: none;
     letter-spacing: 0.02em;
-    transition-property: color, fill;
+    transition-property: color;
     transition-duration: $transitionDuration;
     transition-timing-function: $transitionTimingFunction;
     &:hover,
@@ -29,13 +28,10 @@
     line-height: 1.71;
     text-decoration: none;
     letter-spacing: $letterSpacingTitle;
-    display: flex;
-    padding-bottom: 9px;
-    transition-property: color;
-    transition-duration: $transitionDuration;
-    transition-timing-function: $transitionTimingFunction;
+    font-style: normal;
     &:hover,
     &:focus {
+      cursor: pointer;
       color: $colorSecondary;
     }
   }
@@ -54,24 +50,25 @@
   &__footer {
     background-color: $colorBackgroundSecondary;
     padding: 60px 0;
+    color: $colorPrimary;
     &-container {
       display: flex;
-      column-gap: 70px;
+      align-items: baseline;
     }
     &-address {
-      display: flex;
-      flex-direction: column;
+      margin-bottom: 9px;
     }
     &-join-us {
-      justify-content: flex-start;
+      margin-left: 70px;
       &-title {
         color: $colorThird;
         font-weight: $fontWeightBold;
         font-size: 14px;
         line-height: $lineHeightTitle;
         letter-spacing: $letterSpacingTitle;
-        margin-top: 12px;
         margin-bottom: 20px;
+        width: 113px;
+        height: 16px;
       }
     }
   }
@@ -80,7 +77,6 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: $letterSpacingTitle;
-    display: flex;
-    padding-bottom: 9px;
+    font-style: normal;
   }
 }

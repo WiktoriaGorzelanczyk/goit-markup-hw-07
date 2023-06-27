@@ -1,32 +1,29 @@
 @use "../utils/variables" as *;
 .logo {
-  color: $colorSecondary;
+  color: $colorThird;
   font-family: Raleway;
-  font-weight: $fontWeightBold;
-  font-size: 26px;
-  line-height: 1.2;
   text-decoration: none;
-  letter-spacing: $letterSpacingTitle;
   &--header {
-    color: $colorPrimary;
+    color: $colorSecondary;
     font-family: Raleway;
     font-weight: $fontWeightBold;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.17;
     text-decoration: none;
     letter-spacing: $letterSpacingTitle;
     padding-top: 24px;
     padding-bottom: 25px;
+    margin-right: 93px;
   }
   &--footer {
-    color: $colorThird;
+    color: $colorSecondary;
     font-family: Raleway;
     font-weight: $fontWeightBold;
     font-size: 26px;
-    line-height: 1.2;
+    line-height: 1.17;
     text-decoration: none;
     letter-spacing: $letterSpacingTitle;
     display: flex;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }

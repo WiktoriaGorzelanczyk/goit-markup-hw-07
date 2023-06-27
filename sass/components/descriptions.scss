@@ -1,21 +1,22 @@
 @use "../utils/variables" as *;
 .grid {
   &__desc-icon {
-    padding: 25px 100px;
-    margin-bottom: 30px;
     border-radius: $borderRadius;
-    background-color: $colorBackground;
+    background-color: $colorThird;
+    margin-bottom: 30px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   &__descriptions-name {
-    color: $colorPrimary;
     font-weight: $fontWeightBold;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: $letterSpacingTitle;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
   &__desc-text {
-    color: $colorText;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: $letterSpacingTitle;

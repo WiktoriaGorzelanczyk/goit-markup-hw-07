@@ -7,9 +7,13 @@
 .link__clients {
   display: flex;
   border: 1px solid $colorIcon;
+  color: $colorIcon;
   border-radius: $borderRadius;
-  padding: 17.71px 32px 14.25px 32px;
-  transition-property: border-color, fill;
+  width: 170px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  transition-property: color;
   transition-duration: $transitionDuration;
   transition-timing-function: $transitionTimingFunction;
   &:hover,

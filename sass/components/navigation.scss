@@ -9,15 +9,14 @@
     }
   }
   &__link {
-    color: $colorPrimary;
+    color: $colorText;
     position: relative;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.15;
+    line-height: 1.17;
     text-decoration: none;
     letter-spacing: 0.02em;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    display: flex;
     transition-property: color;
     transition-duration: $transitionDuration;
     transition-timing-function: $transitionTimingFunction;
@@ -30,11 +29,12 @@
         content: "";
         position: absolute;
         background: $colorSecondary;
+        color: $colorSecondary;
         border-radius: 2px;
         width: 100%;
         height: 4px;
-        margin-top: 28px;
-        display: block;
+        bottom: 1px;
+        left: 0;
       }
     }
   }

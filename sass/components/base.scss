@@ -7,7 +7,9 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
+  color: $colorPrimary;
+  letter-spacing: $letterSpacingTitle
+  margin-bottom: 9px;
 }
 img {
   display: block;
@@ -15,8 +17,9 @@ img {
 textarea {
   resize: none;
   font-size: 12px;
-  line-height: $lineHeightTitle;
+  line-height: 1.17;
   letter-spacing: 0.01em;
+  height: 120px;
 }
 ::placeholder {
   color: rgba(117, 117, 117, 0.5);
@@ -27,13 +30,24 @@ textarea {
 }
 
 .link {
-  list-style-type: none;
+  display: flex;
+  border: 1px solid $currentColor;
+  color: $colorIcon;
+  border-radius: $borderRadius;
+  width: 170px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: color;
+  transition-duration: $transitionDuration;
+  transition-timing-function: $transitionTimingFunction;
 }
 .grid {
   list-style: none;
   &__style {
+    list-style-type: none;
     display: flex;
-    justify-content: space-around;
     column-gap: 30px;
   }
 }

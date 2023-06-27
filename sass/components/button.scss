@@ -1,17 +1,16 @@
 @use "../utils/variables" as *;
 .button {
   &__modal--open {
-    color: $colorThird;
-    background-color: $colorSecondary;
-    cursor: pointer;
     font-weight: $fontWeightBold;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     width: 200px;
-    padding: 10px 0;
+    padding: 10px 42px;
     border-radius: $borderRadius;
-    border: none;
+    padding-top: 40px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+
   }
   &__modal--close {
     display: flex;
@@ -40,14 +39,12 @@
     display: inline-flex;
     align-items: center;
     padding: 10px 24px 10px 42px;
-    margin: 48px 0 0 0;
     color: $colorThird;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: $fontWeightBold;
     line-height: 1.8;
     letter-spacing: 0.06em;
     background-color: $colorSecondary;
-
     border: none;
     border-radius: $borderRadius;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -67,13 +64,13 @@
       cursor: pointer;
       font-size: 16px;
       font-weight: 500;
-      line-height: 1.6;
+      line-height: 1.62;
       text-align: center;
       letter-spacing: $letterSpacingTitle;
       border: none;
-      padding: 6px 22px 6px 22px;
+      padding: 6px 22px;
       border-radius: $borderRadius;
-      transition-property: color, background-color;
+      transition-property: color, background-color, box-shadow;
       transition-duration: $transitionDuration;
       transition-timing-function: $transitionTimingFunction;
       &:focus,

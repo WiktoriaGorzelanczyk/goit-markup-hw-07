@@ -20,25 +20,27 @@
   }
   &-img {
     display: block;
+    transition: box-shadow $transitionDuration;
+    text-decoration: none;
   }
   &-dsc {
-    border: 1px solid rgba(238, 238, 238, 1);
-    border-top: none;
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+    border-left: 1px solid rgba(238, 238, 238, 1);
+    border-right: 1px solid rgba(238, 238, 238, 1);
     padding: 20px 24px;
   }
   &-name {
-    background-color: $colorThird;
     color: $colorPrimary;
     font-weight: $fontWeightBold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding-bottom: 4px;
+    margin-bottom: 4px;
   }
   &-text {
     color: $colorText;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.87;
     letter-spacing: $letterSpacingTitle;
     padding-top: 0;
   }

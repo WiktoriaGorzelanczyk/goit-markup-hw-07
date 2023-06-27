@@ -1,10 +1,10 @@
 @use "../utils/variables" as *;
-.grid__work {
+.grid__work_list {
+  list-style-type: none;
   display: flex;
   column-gap: 30px;
   justify-content: space-around;
   &-img {
-    display: flex;
     position: relative;
     > .grid__work-dsc {
       position: absolute;
@@ -14,11 +14,12 @@
       font-weight: $fontWeightBold;
       line-height: $lineHeightTitle;
       letter-spacing: $letterSpacingTitle;
-      text-align: center;
-      padding: 27px;
-      right: 0;
-      left: 0;
       bottom: 0;
+      width: 100%;
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 }

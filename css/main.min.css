@@ -1,7 +1,7 @@
-.grid__clients-icon{fill:#afb1b8}
-.link__clients{display:-webkit-box;display:-ms-flexbox;display:flex;border:1px solid #afb1b8;border-radius:4px;padding:17.71px 32px 14.25px 32px;-webkit-transition-property:border-color,fill;transition-property:border-color,fill;-webkit-transition-duration:250ms;transition-duration:250ms;-webkit-transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}
-.link__clients:hover,.link__clients:focus{border-color:#2196f3}
-.link__clients:hover .grid__clients-icon,.link__clients:focus .grid__clients-icon{fill:#2196f3}
+.grid__clients-icon{fill:#afb1b8;}
+.link__clients{display:flex;border:1px solid #afb1b8;color:#afb1b8;border-radius:4px;width:170px;height:90px;align-items:center;justify-content:center;transition-property:color;transition-duration:250ms;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);}
+.link__clients:hover,.link__clients:focus{border-color:#2196f3;}
+.link__clients:hover .grid__clients-icon,.link__clients:focus .grid__clients-icon{fill:#2196f3;}
 .grid__work_list{list-style-type:none;display:flex;column-gap:30px;justify-content:space-around;}
 .grid__work-images{position:relative;}
 .grid__work-images>.grid__work-desc{position:absolute;background-color:rgba(47,48,58,.8);color:#fff;font-size:14px;font-weight:700;line-height:1.17;letter-spacing:.03em;bottom:0;width:100%;height:70px;display:flex;align-items:center;justify-content:center;}
@@ -12,7 +12,7 @@
 .modal__form{display:flex;flex-direction:column;}
 .modal__form-input{display:flex;border:none;outline:none;margin-left:12px;width:100%;}
 .modal__form-input:focus-within,.modal__form-input:hover{border-color:#2196f3}
-.modal__form-input:focus-within .modal__icon,.modal__form-input:hover .modal__icon{fill:#2196f3}
+.modal__form-input:focus-within .modal__icon,.modal__form-input:hover .modal__icon{fill:#2196f3;}
 .modal__form label span{display:flex;font-size:12px;line-height:1.17;letter-spacing:.01em;color:#757575;margin-bottom:4px}
 .modal__form .button__send{display:inline-flex;height:50px;padding:10px 24px 10x 42px;align-items:center;color:#fff;font-size:16px;font-weight:700;line-height:1.8;letter-spacing:.03em;background-color:#2196f3;border:none;border-radius:4px;box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.15);}
 .modal__icon{display:block;fill:#212121;transition-property:fill;transition-duration:250ms;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}

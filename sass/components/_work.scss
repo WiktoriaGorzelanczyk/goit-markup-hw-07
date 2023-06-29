@@ -1,12 +1,14 @@
 @use "../utils/variables" as *;
-.grid__work_list {
+.grid__work {
+  &-list {
   list-style-type: none;
   display: flex;
   column-gap: 30px;
   justify-content: space-around;
-  &-img {
+  }
+&-images {
     position: relative;
-    > .grid__work-dsc {
+    > &-desc {
       position: absolute;
       background-color: rgba(47, 48, 58, 0.8);
       color: $colorThird;
@@ -21,5 +23,5 @@
       align-items: center;
       justify-content: center;
     }
-  }
+}
 }

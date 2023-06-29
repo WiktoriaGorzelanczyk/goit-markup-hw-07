@@ -29,12 +29,11 @@ textarea {
 }
 .link {
   display: flex;
-  border: 1px solid $currentColor;
+  border: 1px solid $colorIcon;
   color: $colorIcon;
   border-radius: $borderRadius;
   width: 170px;
   height: 90px;
-  display: flex;
   align-items: center;
   justify-content: center;
   transition-property: color;

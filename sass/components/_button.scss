@@ -1,4 +1,4 @@
-@use "../utils/variables" as *;
+@use "../utils/vars" as *;
 .button {
   &__modal--open {
     font-weight: $fontWeightBold;

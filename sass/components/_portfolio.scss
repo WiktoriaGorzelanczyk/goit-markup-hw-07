@@ -1,4 +1,4 @@
-@use "../utils/variables" as *;
+@use "../utils/vars" as *;
 .grid__portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -27,7 +27,7 @@
     border-bottom: 1px solid rgba(238, 238, 238, 1);
     border-left: 1px solid rgba(238, 238, 238, 1);
     border-right: 1px solid rgba(238, 238, 238, 1);
-    padding: 20px 24px;
+    padding: 20px 24px 20px 24px;
   }
   &-name {
     color: $colorPrimary;

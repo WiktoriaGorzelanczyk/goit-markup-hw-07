@@ -50,7 +50,6 @@
       display: inline-flex;
       height: 50px;
       padding: 10px 24px 10px 42px;
-      padding: 10px 24px 10px 42px;
       align-items: center;
       color: $colorThird;
       font-size: 16px;
@@ -84,7 +83,7 @@
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
-  transition-property: hidden 0;;
+  transition-property: hidden 0;
   &__is-hidden {
     pointer-events: none;
     visibility: hidden;

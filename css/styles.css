@@ -58,7 +58,7 @@ img {
     color: #2196f3;
 }
 link:hover {
-    text-decoration-color: #2196F3;
+    text-decoration-color:#404BBF;
 }
 h1 {
     font-size: 44px;
@@ -218,12 +218,12 @@ p {
 .link-active:after {
     content: "";
     position: absolute;
-    background: #2196F3;
-    color: #2196F3;
+    background: #404BBF;
+    color: #404BBF;
     border-radius: 2px;
     width: 100%;
     height: 4px;
-    bottom: 1px;
+    bottom: 5px;
     left: 0;
 }
 .portfolio-images {
@@ -260,7 +260,7 @@ p {
 .links:active,
 .links:focus {
     cursor: pointer;
-    color:#2196F3;
+    color:#404BBF;
 }
 .footer-wrap {
     display: flex;
@@ -292,7 +292,7 @@ p {
 .link:hover ,
 .link:active,
 .link:focus { 
-    color: #2196F3;
+    color: #404BBF;
 }
 .container-port {
     position: relative;
@@ -368,7 +368,7 @@ p {
 .menu-link:active,
 .menu-link:focus {
     cursor: pointer;
-    color: #2196F3;
+    color:#404BBF;
 }
 .container {
     max-width: 1200px;
@@ -392,10 +392,10 @@ p {
     list-style-type: none;
 }
 .list .active:active {
-    color: #2196F3;
+    color: #404BBF;
 }
 .list .link-active {
-    color: #2196F3;
+    color: #404BBF;
     position: relative;
 }
 .desc-list {
@@ -565,7 +565,7 @@ p {
     transition-property: hidden 0;
 }
 .list .link-active {
-    color: #2196F3;
+    color: #404BBF;
 }
 .modal {
     position: absolute;

@@ -41,12 +41,12 @@ img {
     margin: 0 auto;
 }
 .main-first-text {
-    font-weight: 900;
-    font-size: 44px;
+    font-weight: 700;
+    font-size: 56px;
     line-height: 1.37;
     letter-spacing: 0.06em;
     text-align: center;
-    max-width: 696px;
+    max-width: 600px;
 }
 .header-menu {
     border-bottom: 1px solid rgba(236, 236, 236, 1);
@@ -100,8 +100,9 @@ ul {
 }
 button {
     color: #FFFFFF;
-    background-color: #2196F3;
-    border: #2196F3;
+    height: 56px;
+    background-color: #4D5AE5;
+    border: #4D5AE5;
 }
 .buttons {
     color: #212121;
@@ -279,20 +280,15 @@ p {
 }
 .link {
     text-decoration: none;
-    color: #757575;
-    font-size: 14px;
-    font-weight: 500;
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.17;
     display: flex;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link:hover ,
-.link:active,
-.link:focus { 
-    color: #404BBF;
 }
 .container-port {
     position: relative;
@@ -353,7 +349,7 @@ p {
 }
 .menu-link {
     text-decoration: none;
-    color: #212121;
+    color: #2E2F42;
     letter-spacing: 0.02em;
     font-size: 14px;
     font-weight: 500;

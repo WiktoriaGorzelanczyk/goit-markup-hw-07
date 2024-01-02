@@ -309,11 +309,11 @@ p {
   transform: translateY(0);
 }
 .top-title {
-    color: #2196F3;
+    color:#4D5AE5;
     font-family: Raleway;
-    font-size: 26px;
+    font-size: 18px;
     letter-spacing: 0.03em;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 1.17;
     text-decoration: none;
     padding-top: 24px;
@@ -321,23 +321,23 @@ p {
     margin-right: 93px;
 }
 .title {
-    color: #2196F3;
+    color: #4D5AE5;
     font-family: Raleway;
-    font-size: 26px;
+    font-size: 18px;
     letter-spacing: 0.03em;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 1.17;
     text-decoration: none;
     display: flex;
     margin-bottom: 20px;
 }
 .studio {
-    color: #FFFFFF;
+    color:#F4F4FD;
     font-family: Raleway;
     text-decoration: none;
 }
 .studios {
-    color: #212121;
+    color:#2E2F42;
     font-family: Raleway;
     text-decoration: none;
 }

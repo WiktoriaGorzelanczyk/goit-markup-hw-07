@@ -92,11 +92,13 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
+    color:#2E2F42;
 }
 .descriptions-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    color: #434455;
 }
 button {
     color: #FFFFFF;
@@ -127,7 +129,7 @@ p {
     line-height: 1.71;
 }
 .work-text {
-    color: #212121;
+    color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
@@ -144,7 +146,7 @@ p {
 }
 .team {
     text-align: center;
-    background: #F5F4FA;
+    background: #F4F4FD;
 }
 .team-list {
     list-style-type: none;
@@ -162,7 +164,7 @@ p {
     padding: 30px 0;
 }
 .team-text {
-    color: #212121;
+    color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
@@ -171,7 +173,7 @@ p {
     padding-bottom: 50px;
 }
 .team-name {
-    color: #212121;
+    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.18;
@@ -180,7 +182,8 @@ p {
     margin-bottom: 10px;
 }
 .team-job {
-    color: #757575;
+    color:#434455;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -244,10 +247,11 @@ p {
 }
 .address-item {
     font-style: normal;
-    color: #FFFFFF;
+    color: #F4F4FD;
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.71;
+    font-weight: 400;
 }
 .links {
     color:#FFFFFF99;
@@ -412,6 +416,7 @@ p {
     column-gap: 30px;
 }
 .clients-text {
+    color: #2E2F42;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -425,6 +430,7 @@ p {
     column-gap: 30px;
 }
 .clients-item {
+    color: #8E8F99;
     list-style: none;
 }
 .clients-icon {
@@ -450,10 +456,11 @@ p {
 }
 .join-us {
     margin-left: 70px;
+    margin-right: 70px;
 }
 .join-us-text {
-    color: #F5F4FA;
-    font-weight: 700;
+    color: #FFF;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -466,8 +473,8 @@ p {
     column-gap: 10px;
 }
 .com-link-footer {
-    fill: #FFFFFF;
-    background-color: #ffffff10;
+    fill:#F4F4FD;
+    background-color: #4D5AE5;
     border-radius: 50% 50%;
     display: flex;
     align-items: center;
@@ -535,7 +542,8 @@ p {
     margin-top: 16px;
 }
 .com-links {
-    fill: #AFB1B8;
+    fill: #F4F4FD;
+    background-color:#4D5AE5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -545,11 +553,6 @@ p {
     transition-property: fill, background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.com-links:hover,
-.com-links:focus {
-    fill: #F5F4FA;
-    background-color: #2196f3;
 }
 .backdrop {
     position: fixed;
@@ -619,6 +622,7 @@ p {
 }
 .contact {
     margin-bottom: 9px;
+    margin-right: 20px;
 }
 textarea {
     resize: none;
@@ -631,22 +635,20 @@ textarea {
     color: rgba(117, 117, 117, 0.5);
 }
 .button-send {
-    height: 50px;
+    width: 165px;
+    height: 40px;
     display: inline-flex;
     align-items: center;
     padding: 10px 24px 10px 42px;
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.8;
     letter-spacing: 0.06em;
-    background-color: #2196F3;
+    background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-.button-send:hover {
-    cursor: pointer;
 }
 .checkbox {
     position: relative;
@@ -759,28 +761,25 @@ textarea {
     color: #FFFFFF;
     display: flex;
     background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid #FFF;
     border-radius: 4px;
     padding: 15px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    width: 358px;
+    width: 264px;
+    height: 40px;
     outline: none;
-}
-.newsletter-input:focus,
-.newsletter-input:hover {
-    border-color: #2196F3;
 }
 .newsletter-text {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #F5F4FA;
+    color: #FFF;
     margin-bottom: 20px;
 }
 .newsletter-icon {
     fill: #FFFFFF;
-    margin-left: 24px;
+    margin-left: 2px;
 }
 .news-div {
     display: flex;
@@ -789,4 +788,7 @@ textarea {
 .modal-lab {
     margin-bottom: 10px;
     display: block;
+}
+.button-send-text {
+    margin-right: 5px;
 }

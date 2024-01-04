@@ -669,6 +669,7 @@ textarea {
     height: 100%;
     clip: rect(1px 1px 1px 1px);
     margin-bottom: 20px;
+    color:#8E8F99;
 }
 .checkbox-label {
     position: relative;
@@ -679,13 +680,13 @@ textarea {
 }
 .checkbox-label:focus,
 .checkbox-label:hover {
-    border-color: #2196F3;
+    border-color: #4D5AE5;
 }
 .checkbox-link {
-    color: #2196F3;
+    color: #4D5AE5;
 }
 .checkbox-input:checked + .checkbox-label {
-    background-color: #2196F3;
+    background-color: #4D5AE5;
     border: 0.2px solid #FFFFFF;
     border-radius: 2px;
 }
@@ -741,7 +742,7 @@ textarea {
 }
 .modal-form-input:focus-within,
 .modal-form-input:hover {
-    border-color: #2196F3;
+    border-color: #4D5AE5;
 }
 .modal-icon {
     display: block;
@@ -752,7 +753,7 @@ textarea {
 }
 .modal-form-input:focus-within .modal-icon,
 .modal-form-input:hover .modal-icon {
-    fill: #2196F3;
+    fill: #4D5AE5;
 }
 .newsletter {
     margin-left: auto;

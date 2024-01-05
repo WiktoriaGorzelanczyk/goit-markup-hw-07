@@ -77,7 +77,7 @@ h1 {
 .buttons:hover ,
 .buttons:active,
 .buttons:focus {
-    background-color: #2196F3;
+    background-color:#404BBF;
     color: #FFFFFF;
     box-shadow: 0 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -107,8 +107,8 @@ button {
     border: #4D5AE5;
 }
 .buttons {
-    color: #212121;
-    background-color:#F5F4FA; 
+    color:#4D5AE5;
+    background-color: #F4F4FD; 
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
@@ -209,6 +209,7 @@ p {
     justify-content: center;
     column-gap: 8px;
     padding-bottom: 50px;
+    color: #E7E9FC;
 }
 .portfolio-list {
     display: flex;
@@ -450,10 +451,6 @@ p {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-.clients-link:hover,
-.clients-link:focus {
-    color: #2196F3;
-}
 .join-us {
     margin-right: 140px;
 }
@@ -483,13 +480,6 @@ p {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-.com-link-footer:hover,
-.com-link-footer:focus {
-    fill: #FFFFFF;
-    background-color: #2196F3;
-    border-radius: 50% 50%;
-    cursor: pointer;
-}
 .icon {
     fill: currentColor;
     margin-right: 10px;
@@ -615,9 +605,9 @@ p {
     font-size: 18px;
     line-height: 1.5;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(33, 150, 243, 0.9);
-    padding: 55px 45px 49px 24px;
+    color: #F4F4FD;
+    background-color:#4D5AE5;
+    padding: 70px;
 }
 .contact {
     margin-bottom: 9px;

@@ -905,3 +905,6 @@ textarea {
 .mobile-menu__icon--close:focus {
     color: #2196f3;
 }
+@media(max-width: 767px){.navigation,.contact{display:none}}
+
+@media(min-width: 768px){.menu-toggle{display:none}}
